@@ -19,4 +19,4 @@ A simple browser-based **sequence memory game** built with HTML, CSS, and JavaSc
 5. The game tracks your **high score** automatically.
 
 ## Live Demo
-(After deploying GitHub Pages, paste your link here)
+🔗 [Play the Game Here](https://shreyasingh-2007.github.io/sequence-game/)

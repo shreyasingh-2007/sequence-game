@@ -1,0 +1,109 @@
+body {
+  text-align: center;
+}
+
+.yellow {
+  background-color: yellow;
+  border: 5px solid black;
+  height: 150px;
+  width: 150px;
+  border-radius: 20%;
+  margin: 1rem;
+
+}
+
+.red {
+  background-color: lightpink;
+  border: 5px solid black;
+  height: 150px;
+  width: 150px;
+  border-radius: 20%;
+  margin: 1rem;
+
+}
+
+.purple {
+  background-color: darkmagenta;
+  border: 5px solid black;
+  height: 150px;
+  width: 150px;
+  border-radius: 20%;
+  margin: 1rem;
+
+}
+
+.green {
+  background-color: orange;
+  border: 5px solid black;
+  height: 150px;
+  width: 150px;
+  border-radius: 20%;
+  margin: 1rem;
+
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.gameflash {
+  background-color: white;
+}
+
+.userflash {
+  background-color: green;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+body.dark-mode h1,
+body.dark-mode h2 {
+  color: #f1f1f1;
+}
+
+body.dark-mode .yellow,
+body.dark-mode .red,
+body.dark-mode .purple,
+body.dark-mode .green {
+  border-color: #333;
+}
+
+body,
+h1,
+h2,
+.yellow,
+.red,
+.purple,
+.green {
+  transition: all 0.3s ease;
+}
+
+#dark-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #eee;
+  color: #121212;
+  transition: all 0.3s ease;
+}
+
+#dark-toggle:hover {
+  background: #ddd;
+}
+
+body.dark-mode #dark-toggle {
+  background: #333;
+  color: #f1f1f1;
+}
+
+body.dark-mode #dark-toggle:hover {
+  background: #555;
+}
